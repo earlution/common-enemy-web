@@ -38,7 +38,7 @@ git checkout main && git merge dev && git push origin main
 - [ ] YouTube segment URLs in `methodology.html` after recording
 - [ ] Podcast feed link when host is configured
 
-See `marketing-strategy-v0.1.1.md` in common-enemy (Phase One / Campaign A).
+See `marketing-strategy-v0.1.2.md` in common-enemy (Phase One / Campaign A).
 
 ---
 
