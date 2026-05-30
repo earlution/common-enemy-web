@@ -1,10 +1,12 @@
 # common-enemy-web
 
-Public landing site for **A Common Enemy** — podcast and analysis by Ruari Mears.
+Public landing site for **A Common Enemy** — podcast and structural analysis of British politics by Ruari Mears.
 
-**Live (after first deploy):** https://earlution.github.io/common-enemy-web/
+**Live:** https://earlution.github.io/common-enemy-web/
 
 **Production canon** lives in the private repo [earlution/common-enemy](https://github.com/earlution/common-enemy). This repo publishes only marketing-facing static pages.
+
+**Branding:** Editorial broadcast identity — intentionally separate from [RMS-Ltd/web](https://github.com/RMS-Ltd/web), [AI Dev Kit](https://github.com/RMS-Ltd/ai-dev-kit), and any cooperative or developer-tooling sites. No shared theme system, no cross-project contact paths.
 
 ---
 
@@ -47,4 +49,5 @@ See `marketing-strategy-v0.1.2.md` in common-enemy (Phase One / Campaign A).
 | Repo | Role |
 | ---- | ---- |
 | [earlution/common-enemy](https://github.com/earlution/common-enemy) | Private — scripts, docs, production |
-| [RMS-Ltd/web](https://github.com/RMS-Ltd/web) | Cooperative umbrella — optional cross-link only |
+| [RMS-Ltd/web](https://github.com/RMS-Ltd/web) | Cooperative umbrella — no shared branding or infrastructure |
+| [RMS-Ltd/ai-dev-kit](https://github.com/RMS-Ltd/ai-dev-kit) | Developer tooling — unrelated project |

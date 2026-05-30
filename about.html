@@ -2,79 +2,69 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <script>
-    (function () {
-      var k = 'ace-theme', t = 'dark';
-      try { var s = localStorage.getItem(k); if (s === 'light' || s === 'dark') t = s; } catch (e) {}
-      document.documentElement.setAttribute('data-theme', t);
-    })();
-  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About — A Common Enemy</title>
   <meta name="description" content="About A Common Enemy and Ruari Mears — declared standpoint, methodology, and what this project is for.">
   <link rel="canonical" href="https://earlution.github.io/common-enemy-web/about.html">
-  <meta name="theme-color" content="#121110">
+  <meta name="theme-color" content="#ebe4d8">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <p class="eyebrow">Declared standpoint</p>
-    <div class="header-bar">
-      <p class="site-brand"><a href="index.html">A Common Enemy</a></p>
-      <div class="header-actions">
-        <nav class="site-nav" aria-label="Site">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="methodology.html">Methodology</a></li>
-            <li><a href="about.html" aria-current="page">About</a></li>
-          </ul>
-        </nav>
-        <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="true">
-          <svg class="theme-icon theme-icon-light" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
-          <svg class="theme-icon theme-icon-dark" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-          <span class="theme-toggle-label">Light</span>
-        </button>
-      </div>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="series-title" href="index.html">A Common Enemy</a>
+      <p class="series-tag">Structural analysis · British politics · Ruari Mears</p>
+      <nav class="site-nav" aria-label="Site">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="methodology.html">Methodology</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+        </ul>
+      </nav>
     </div>
-    <h1>About</h1>
-    <p class="lede">Every argument comes from somewhere. This show declares where.</p>
+    <hr class="masthead-rule" aria-hidden="true">
   </header>
 
-  <main id="main">
-    <section class="panel" aria-labelledby="host-heading">
+  <article class="page" id="main">
+    <header class="page-header">
+      <p class="kicker">Declared standpoint</p>
+      <h1>About</h1>
+      <p class="lede">Every argument comes from somewhere. This show declares where.</p>
+    </header>
+
+    <section class="section" aria-labelledby="host-heading">
       <h2 id="host-heading">Host</h2>
       <p><strong>Ruari Mears</strong> — independent analyst. Video and audio under the channel name <strong>Ruari Mears</strong>; the series title is <em>A Common Enemy</em>.</p>
-      <p>This is a <strong>personal project</strong>, separate from <a href="https://rms-ltd.github.io/web/" rel="noopener">RMS Ltd.</a> (worker-owned tech cooperative in formation).</p>
+      <p>This is a <strong>personal project</strong> — not part of RMS Ltd., AI Dev Kit, or any other commercial or tooling repository.</p>
     </section>
 
-    <section class="panel" aria-labelledby="standpoint-heading">
+    <section class="section" aria-labelledby="standpoint-heading">
       <h2 id="standpoint-heading">Declared standpoint</h2>
       <p>I am a democratic socialist. I grew up inside the socialist labour movement tradition — not as metaphor, but as formation. That gives me specific analytical tools and specific blind spots. The purpose of naming them is not apology; it is methodology.</p>
       <p>The show applies a <strong>steelman obligation</strong>, a <strong>bias audit</strong>, and a <strong>three-register system</strong> (evidence → interpretation → moral argument) to keep analysis legible under scrutiny — especially from listeners who do not share my starting point.</p>
       <p>Full treatment: <a href="methodology.html#s01">Episode 0, Segment 1 — The Declared Standpoint</a>.</p>
     </section>
 
-    <section class="panel" aria-labelledby="project-heading">
+    <section class="section" aria-labelledby="project-heading">
       <h2 id="project-heading">What this project is</h2>
       <p><em>A Common Enemy</em> argues that structural convergence in contemporary British politics is visible through a six-axis framework — grounded in primary sources, peer-reviewed literature, and propositional logic — presented for a general audience.</p>
       <p>Companion framing: Daniel Trilling's <em>If We Tolerate This</em> documents what happened to the mainstreaming of the far right. This show argues <strong>why it happened</strong> and <strong>what it means structurally</strong>.</p>
     </section>
 
-    <section class="panel" aria-labelledby="contact-heading">
+    <section class="section" aria-labelledby="contact-heading">
       <h2 id="contact-heading">Contact</h2>
-      <p><a href="mailto:info@rms-ltd.uk">info@rms-ltd.uk</a></p>
+      <p>Series inquiries via the <a href="index.html#newsletter">newsletter signup</a> (when live) or YouTube comments after launch.</p>
     </section>
-  </main>
+  </article>
 
   <footer class="site-footer">
     <p class="tagline">Legible bias is substantially less dangerous than invisible bias.</p>
     <p>© <span id="year"></span> Ruari Mears · <span id="site-version"></span></p>
   </footer>
 
-  <script src="assets/theme.js"></script>
   <script src="assets/site.js"></script>
 </body>
 </html>
