@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <script>
+    (function () {
+      var k = 'ace-theme', t = 'dark';
+      try { var s = localStorage.getItem(k); if (s === 'light' || s === 'dark') t = s; } catch (e) {}
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Common Enemy — structural analysis of British politics</title>
+  <meta name="description" content="A Common Enemy: podcast and video series on structural convergence in British politics — by Ruari Mears. Methodology, episodes, and academic work.">
+  <link rel="canonical" href="https://earlution.github.io/common-enemy-web/">
+  <meta property="og:title" content="A Common Enemy">
+  <meta property="og:description" content="Structural analysis of British politics — podcast and video by Ruari Mears.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://earlution.github.io/common-enemy-web/">
+  <meta name="theme-color" content="#121110">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <p class="eyebrow">Personal project · Ruari Mears</p>
+    <div class="header-bar">
+      <p class="site-brand"><a href="index.html">A Common Enemy</a></p>
+      <div class="header-actions">
+        <nav class="site-nav" aria-label="Site">
+          <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="methodology.html">Methodology</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="true">
+          <svg class="theme-icon theme-icon-light" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="theme-icon theme-icon-dark" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <span class="theme-toggle-label">Light</span>
+        </button>
+      </div>
+    </div>
+    <h1>A Common Enemy</h1>
+    <p class="subtitle">Podcast &amp; video · structural analysis of British politics</p>
+    <p class="lede">A six-axis framework, primary sources, and propositional logic — in a format built for listeners who want rigour without the sermon.</p>
+  </header>
+
+  <main id="main">
+    <section class="panel" aria-labelledby="status-heading">
+      <h2 id="status-heading">Status <span class="status-badge">Pre-launch</span></h2>
+      <p>Episodes are in production. This site is the permanent home for the methodology (Episode&nbsp;0) and links to video, audio, and the academic paper.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="methodology.html">Episode 0 — Methodology</a>
+        <a class="btn btn-secondary" href="about.html">Declared standpoint</a>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="series-heading">
+      <h2 id="series-heading">The series</h2>
+      <p><strong>Episode 1 — <em>The Wrong Fight</em></strong> is the entry point: two portraits, one structural argument, and the convergence thesis in plain language.</p>
+      <p class="pending">Full episode — link added at launch.</p>
+      <ul class="link-list">
+        <li>
+          <span>Watch</span>
+          <span class="meta">YouTube (Ruari Mears) — coming soon</span>
+        </li>
+        <li>
+          <span>Listen</span>
+          <span class="meta">Podcast feed — coming soon</span>
+        </li>
+        <li>
+          <span>Read</span>
+          <span class="meta"><a href="#paper" id="paper-link">Academic preprint (SocArXiv)</a> — forthcoming</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="panel" aria-labelledby="newsletter-heading">
+      <h2 id="newsletter-heading">Newsletter</h2>
+      <p>One email per episode release — summary plus one thread the episode raised but did not resolve.</p>
+      <div class="newsletter-placeholder" id="newsletter">
+        <!-- Replace with Buttondown / Substack / Mailchimp embed when provider is chosen -->
+        <p><strong>Signup coming soon.</strong> Contact: <a href="mailto:info@rms-ltd.uk">info@rms-ltd.uk</a> to register interest.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="tagline">Trilling documents what happened. This show argues why — structurally.</p>
+    <p>© <span id="year"></span> Ruari Mears · Personal project · <span id="site-version"></span></p>
+  </footer>
+
+  <script src="assets/theme.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>
